@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us Page</title>
+    <title>Check Out Page</title>
     <link rel="stylesheet" th:href="@{~/css/footer.css}">
 
     <link rel="stylesheet" th:href="@{~/css/checkout.css}">
@@ -43,14 +43,14 @@
                         <h6 class="my-0"Orea-Shake tea ></h6>
                         <small class="text-muted">Best Quality</small>
                     </div>
-                    <span class="text-muted">Rs.200</span>
+                    <span class="text-muted"></span>
                 </li>
                 <li class="list-group-item d-flex justify-content-between lh-sm">
                     <div>
-                        <h6 class="my-0">Strawberry Milk tea</h6>
+                        <h6 class="my-0">Ice Coffee</h6>
                         <small class="text-muted">Best product</small>
                     </div>
-                    <span class="text-muted">Rs.300</span>
+                    <span class="text-muted">Rs.200</span>
                 </li>
                 <li class="list-group-item d-flex justify-content-between lh-sm">
 
@@ -64,7 +64,7 @@
                 </li>
                 <li class="list-group-item d-flex justify-content-between">
                     <span>Total (Rupee)</span>
-                    <strong>Rs.600</strong>
+                    <strong>Rs.300</strong>
                 </li>
             </ul>
 
@@ -164,7 +164,7 @@
 
                 <hr class="my-4">
 
-                <button class="check-btn" type="submit">Continue to checkout</button>
+                <button class="check-btn" type="submit"><a th:href="@{~/home}">Complete order</a></button>
             </form>
         </div>
     </div>
